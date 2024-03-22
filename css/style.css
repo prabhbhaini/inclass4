@@ -1,0 +1,152 @@
+/* my name is prabhjot singh 
+   my student no. is 8980401 */
+
+  html{
+    height: 100%;
+  }
+  
+
+body {
+  background-color:hsl(195, 100%, 80%); 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  min-height: 100%; 
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+  
+  
+nav li {
+  display: inline;
+}
+
+nav a {
+  border: 2px solid indigo;
+  width: 100px;
+  border-radius: 5px;
+  color: indigo;
+  background-color: cornsilk;
+  text-decoration: none;
+  padding: 5px 10px;
+  box-shadow: 3px 3px black;
+}
+
+nav a:hover {
+  color: cornsilk;
+  background-color: indigo;
+}
+
+aside li
+ {
+  line-height: 2;
+  color: rgba(225, 147, 79, 0.9);
+  list-style: square;
+  
+}
+
+aside { width: 300px;
+  float: right;
+  background-color: hsl(45, 48%, 40%);
+  box-shadow:1px 1px 2px rgb(67, 60, 60), 0 0 25px rgb(137, 137, 255), 0 0 5px rgb(141, 141, 254);
+
+}
+h1{
+  color:rgb(0, 64, 255);
+  font-style: italic;
+  font-size: 35px;
+  text-align: center;
+}
+
+main{
+  float: left;
+  width: 800px;
+  background-color: hsl(169, 88%, 29%);
+  margin: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+header{
+  background-color: hsl(0, 26%, 66%);
+  padding: 20px;
+  box-shadow: 2px 1px 2px black, 0 0 25px rgb(253, 151, 114), 0 0 5px rgb(91, 107, 253);;
+}
+
+  
+h2 {
+  color:#120060;
+  font: 30px;
+    
+    
+}
+
+.structural header,main,aside,footer {
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+}
+
+#p1{
+  color: rgb(65, 13, 4);
+}
+#p2{
+  color: rgb(157, 97, 19);
+}
+
+
+footer{
+  background-color: hsl(248, 53%, 58%);
+  clear: both;
+  text-align: center;    
+  background-color: #f7e7d9; 
+  padding: 10px 0; 
+  font-size: 10px;
+  margin-top: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover{
+  color: #951dc5;
+}
+form {
+  border: 5px dashed #FF5733;
+  padding: 5px;
+}
+
+main, aside {
+  height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],select,option {
+  width: 50%;
+  display: block;
+  height: 2em;
+  box-shadow: 1px 2px rgb(233, 5, 5);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label, legend, input[type="submit"] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+  
+  
+  
+  
